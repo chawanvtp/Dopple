@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_77" cx="20" cy="20" r="20" class="cls-1" transform="translate(448 530.486)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#f3f3f3}
+        </style>
+    </defs>
+    <g id="msft-stock" transform="translate(-448 -530.486)">
+        <circle id="bg" cx="20" cy="20" r="20" fill="#f3f4f6" transform="translate(448 530.486)"/>
+        <g id="icon" clip-path="url(#clip-path)">
+            <g id="Microsoft_logo" transform="translate(457.323 539.809)">
+                <path id="Path_3053" d="M0 0h21.354v21.354H0z" class="cls-1"/>
+                <path id="Path_3054" fill="#f35325" d="M1.739 1.739h9.284v9.284H1.739z" transform="translate(-.811 -.811)"/>
+                <path id="Path_3055" fill="#81bc06" d="M20.87 1.739h9.284v9.284H20.87z" transform="translate(-9.728 -.811)"/>
+                <path id="Path_3056" fill="#05a6f0" d="M1.739 20.87h9.284v9.284H1.739z" transform="translate(-.811 -9.728)"/>
+                <path id="Path_3057" fill="#ffba08" d="M20.87 20.87h9.284v9.284H20.87z" transform="translate(-9.728 -9.728)"/>
+            </g>
+        </g>
+    </g>
+</svg>
