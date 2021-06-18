@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.237" height="21.08" viewBox="0 0 18.237 21.08">
+    <defs>
+        <style>
+            .cls-1{fill:#f0b90b}
+        </style>
+    </defs>
+    <g id="bsc-icon" transform="translate(-1.5)">
+        <path id="Path_392" d="M10.438 0L4.84 3.229 6.9 4.422l3.54-2.036 3.54 2.036 2.058-1.193z" class="cls-1" transform="translate(.18)"/>
+        <path id="Path_393" d="M13.979 5.8l2.058 1.193v2.381L12.5 11.41v4.072l-2.058 1.193-2.062-1.193V11.41L4.84 9.374V6.988L6.9 5.8l3.54 2.036z" class="cls-1" transform="translate(.18 .313)"/>
+        <path id="Path_394" d="M15.569 10.79v2.386l-2.059 1.193v-2.386z" class="cls-1" transform="translate(.649 .583)"/>
+        <path id="Path_395" d="M13.491 16.159l3.54-2.036v-4.072l2.058-1.193v6.458l-5.6 3.229z" class="cls-1" transform="translate(.648 .478)"/>
+        <path id="Path_396" d="M16.955 6.249L14.9 5.056l2.058-1.193 2.058 1.193v2.386l-2.061 1.193z" class="cls-1" transform="translate(.724 .209)"/>
+        <path id="Path_397" d="M8.2 18.991V16.6l2.057 1.2 2.058-1.2v2.386l-2.058 1.193z" class="cls-1" transform="translate(.362 .897)"/>
+        <path id="Path_398" d="M6.9 14.369l-2.06-1.193V10.79l2.06 1.193z" class="cls-1" transform="translate(.18 .583)"/>
+        <path id="Path_399" d="M10.257 6.249L8.2 5.056l2.058-1.193 2.058 1.193z" class="cls-1" transform="translate(.362 .209)"/>
+        <path id="Path_400" d="M5.617 5.056L3.558 6.249v2.386L1.5 7.442V5.056l2.058-1.193z" class="cls-1" transform="translate(0 .209)"/>
+        <path id="Path_401" d="M1.5 8.859l2.058 1.193v4.072L7.1 16.159v2.386l-5.6-3.229z" class="cls-1" transform="translate(0 .478)"/>
+    </g>
+</svg>

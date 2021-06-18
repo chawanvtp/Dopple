@@ -1,0 +1,111 @@
+.redeem-wrapper {
+    max-width: 100rem;
+}
+
+.redeem-wrapper table {
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.redeem-stock-row {
+    text-align: center;
+    margin: 18px 0 20px;
+    padding: 19px 20px 13px 20px;
+    border-radius: 10px;
+    border: solid 1px #e5e7eb;
+}
+
+.redeem-stock-row .token-logo-wrapper {
+    height: 2rem;
+    /* position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    width: 90%;
+    transform: translateY(-50%); */
+}
+
+.redeem-stock-row .token-balance {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.redeem-stock-row .token-amount-wrapper {
+    margin-top: 0.75rem;
+}
+
+.redeem-stock-row .deposit-amount {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1f2937;
+    margin-top: 0.25rem;
+}
+
+.redeem-stock-row .deposit-amount {
+    color: #19c6bc;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.redeem-stock-row .collateral-amount {
+    color: #19c6bc;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    width: 90%;
+    transform: translateY(-50%);
+}
+
+.redeem-stock-row .deposit-amount-in-dollar {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.redeem-wrapper .redeem-stock-row button {
+    padding: 10px;
+}
+
+.redeem-wrapper .liq-price {
+    color: rgb(243, 39, 39);
+}
+
+.redeem-wrapper table th {
+    padding: 1rem 0;
+}
+
+.redeem-wrapper table tr {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 420px) {
+    .redeem-wrapper {
+        padding: 0 !important;
+    }
+    .redeem-wrapper table {
+        font-size: 10px !important;
+    }
+    .redeem-wrapper,
+    .redeem-stock-row .deposit-amount,
+    .redeem-stock-row .name {
+        font-size: 14px !important;
+    }
+    .redeem-wrapper .redeem-stock-row button {
+        padding: 5px;
+    }
+    .redeem-stock-row .deposit-amount {
+        font-size: 10px;
+    }
+    .redeem-stock-row .deposit-amount-in-dollar {
+        font-size: 8px;
+    }
+    .redeem-wrapper .liq-price {
+        font-size: 10px;
+    }
+    .redeem-stock-row .token-logo-wrapper {
+        height: 2rem;
+    }
+}

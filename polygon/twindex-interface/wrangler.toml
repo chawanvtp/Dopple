@@ -1,0 +1,10 @@
+name = "twindex-interface"
+type = "webpack"
+account_id = "f6352d12dd9d3783bf422e98fece6e85"
+workers_dev = true
+route = "twindex.com/*"
+zone_id = "3300ea914dc74970a0f3d509e0233310"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"

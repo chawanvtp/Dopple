@@ -1,0 +1,451 @@
+.staking-container {
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: 2.4rem;
+}
+.dark .staking-container {
+  background-color: #192230;
+  color: white;
+}
+.light .staking-container {
+  background-color: white;
+  color: black;
+}
+
+.staking-item {
+  padding: 1.48rem 1.48rem;
+  border-radius: 20px;
+  max-height: 104px;
+  overflow: hidden;
+}
+.dark .staking-item {
+  border: solid 1px #374151;
+  background-color: #1f2937;
+}
+.light .staking-item {
+  border: solid 1px #d5d5d5;
+  background-color: white;
+}
+
+.staking-divider {
+  margin: 2rem 0;
+  border-color: #374151;
+}
+.dark .staking-divider {
+  border-color: #374151;
+}
+.light .staking-divider {
+  border-color: #d1d1d1;
+}
+
+.staking-item.active {
+  max-height: 740px;
+}
+
+.staking-header {
+  cursor: pointer;
+}
+
+.staking-title {
+  padding: 0px 1.48rem;
+}
+
+.tokens-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weight-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #ff7f00;
+}
+
+.apr-group {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+}
+.apr-group .title {
+  font-weight: bold;
+}
+
+.tokens-group .title-group {
+  padding-left: 0.8rem;
+  padding-top: 4px;
+}
+
+.dark .tokens-group .text-title {
+  color: white;
+}
+.light .tokens-group .text-title {
+  color: black;
+}
+
+.tokens-group .text-sub {
+  font-size: 0.78rem;
+  color: #19c6bc;
+}
+
+.apr-group .sub {
+  font-size: 0.8rem;
+  color: #808285;
+}
+
+.tvl-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.earned-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #19c6bc;
+  font-weight: bold;
+}
+
+.staking-body {
+  display: flex;
+}
+.staking-reward {
+  text-align: center;
+}
+.staking-reward .title {
+  color: #19c6bc;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.88rem;
+}
+
+.staking-reward .sub {
+  color: #808285;
+  margin-bottom: 1.8rem;
+}
+
+.staking-input {
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  border: solid 1px #374151;
+  background-color: #192230;
+  width: 100%;
+  margin: 0.48rem 0rem;
+  margin-bottom: 1.4rem;
+  color: white;
+}
+
+.dark .staking-input {
+  border: solid 1px #374151;
+  background-color: #192230;
+  color: white;
+}
+
+.light .staking-input {
+  border: solid 1px #d1d1d1;
+  background-color: #f3f4f6;
+  color: black;
+}
+
+.staking-input::placeholder {
+  color: #808285 !important;
+  opacity: 1; /* Firefox */
+}
+
+.staking-input:focus {
+  outline: none;
+}
+
+.btn-max {
+  position: relative;
+  float: right;
+  z-index: 20;
+  margin-top: -3.6rem;
+  margin-right: 0.58rem;
+  color: #19c6bc;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-claim {
+  width: 100%;
+  padding: 0.6rem 4rem;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to left, #19c6bc, #0062dc);
+}
+
+.btn-staking-confirm.disabled {
+  border-radius: 10px;
+  border: solid 1px #808285;
+  color: #808285;
+  background-color: transparent;
+  background-image: unset;
+  cursor: unset !important;
+}
+
+.btn-claim.disabled {
+  border-radius: 10px;
+  border: solid 1px #808285;
+  color: #808285;
+  background-color: transparent;
+  background-image: unset;
+  cursor: unset !important;
+}
+
+.btn-staking-confirm {
+  margin-top: 0 !important;
+  width: 100%;
+  padding: 0.6rem 0;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to left, #19c6bc, #0062dc);
+}
+
+.gap-1 {
+  gap: 0.4rem;
+}
+
+.text-balance {
+  color: #19c6bc;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.dark .modal-loading {
+  color: white;
+}
+.light .modal-loading {
+  color: black;
+}
+
+.modal-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  width: 100%;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-red {
+  color: red;
+}
+
+.reward-earn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light .reward-earn .title {
+  color: black;
+}
+
+.dark .reward-earn .title {
+  color: white;
+}
+
+.light .reward-earn .body {
+  color: black;
+}
+
+.dark .reward-earn .body {
+  color: white;
+}
+
+.reward-panel.reward-earn {
+  padding: 60px !important;
+}
+
+.reward-panel {
+  padding: 30px !important;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.light .reward-panel {
+  background-color: white;
+}
+
+.dark .reward-panel {
+  background-color: #1f2937;
+}
+
+.reward-earn .title {
+  color: black;
+}
+
+.reward-earn .body {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem 0rem;
+}
+
+.reward-earn .sub {
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
+
+.light .twindex-balance .header {
+  color: black;
+}
+.dark .twindex-balance .header {
+  color: white;
+}
+
+.light .twindex-balance .body {
+  color: black;
+}
+.dark .twindex-balance .body {
+  color: white;
+}
+
+.twindex-balance .body > .title {
+  font-size: 1.78rem;
+  font-weight: bold;
+  margin: 0.48rem 0;
+}
+
+.twindex-balance .body > .sub {
+  color: #9ca3af;
+}
+
+.locked-amount .title {
+  font-weight: bold;
+  margin-bottom: 0.48rem;
+  font-size: 1.08rem;
+}
+
+.dark .locked-amount .title {
+  color: white;
+}
+
+.light .locked-amount .title {
+  color: black;
+}
+
+.locked-amount .sub {
+  color: #9ca3af;
+}
+
+.text-green {
+  color: #19c6bc;
+}
+
+@media only screen and (max-width: 600px) {
+  .container.farm {
+    padding: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .staking-container {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+
+  .staking-title {
+    padding: 0 1.3rem 0 1rem;
+    font-size: 0.8rem;
+  }
+
+  .tokens-group .text-title {
+    font-size: 0.6rem;
+  }
+
+  .tokens-group .title-group .text-sub {
+    font-size: 0.5rem;
+  }
+
+  .staking-item {
+    padding: 0.2rem;
+    max-height: 75px;
+  }
+  .staking-reward .title {
+    margin-top: 1.2rem !important;
+  }
+
+  .staking-reward .sub {
+    margin-bottom: 0.6rem !important;
+  }
+
+  .tokens-group .img-logo img {
+    width: 3rem !important;
+  }
+
+  .weight-badge {
+    padding: 0.1rem 0.2rem;
+    border-radius: 6px;
+    font-size: 0.6rem;
+  }
+
+  .staking-header .title-group {
+    padding-left: 0.2rem;
+    padding-top: 0px;
+  }
+  .tokens-group {
+    padding-right: 0 !important;
+  }
+
+  .apr-group .title {
+    font-size: 0.6rem;
+  }
+  .apr-group .sub {
+    font-size: 0.5rem;
+  }
+
+  .apr-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .tvl-group {
+    font-size: 0.6rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .earned-group {
+    font-size: 0.6rem;
+    padding-left: 0 !important;
+  }
+  .staking-header {
+    height: 4rem;
+  }
+
+  .staking-divider {
+    margin: 0.4rem 0;
+  }
+}

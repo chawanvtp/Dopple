@@ -1,0 +1,361 @@
+    .guage-item {
+        border-right: 0.1rem solid #6b7280;
+        position: absolute;
+        left: 0;
+        bottom: -0.35rem;
+        height: 0.65rem;
+    }
+    
+    .guage-header-item-wrapper {
+        height: 1rem;
+        text-align: right;
+        display: inline-block;
+        font-family: 'SanFranciscoDisplay';
+        font-size: 12px;
+        font-weight: normal;
+        color: #9ca3af;
+    }
+    
+    .guage-header-item {
+        width: fit-content;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .guage-footer-item {
+        height: 2.5rem;
+        text-align: right;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: normal;
+        color: #19c6bc;
+        font-weight: bold;
+    }
+    
+    .active-guage-bar {
+        background-color: #19c6bc;
+        height: 100%;
+        z-index: 180;
+        border-radius: 50rem;
+    }
+    
+    .guage-bar {
+        background-color: #e5e7eb;
+        height: 0.25rem;
+        z-index: 140;
+        border-radius: 50rem;
+    }
+    
+    .input-range__label-container {
+        /* top: -1rem; */
+        bottom: -2.5rem;
+        color: #19c6bc !important;
+    }
+    
+    .dark .input-range__label-container {
+        /* top: -1rem; */
+        bottom: -2.5rem;
+        color: #ffffff !important;
+    }
+    
+    .input-range__label--min {
+        display: none;
+    }
+    
+    .input-range__label--max {
+        display: none;
+    }
+    
+    .input-range__track {
+        background: #6b7280 !important;
+    }
+    
+    .input-range__track--active {
+        background-color: #19c6bc !important;
+    }
+    
+    .input-range__slider {
+        background: #19c6bc !important;
+        border: 1px solid #19c6bc !important;
+    }
+    
+    .warning-wrapper {
+        border: solid 1px #e5e7eb;
+        font-size: 20px;
+        padding: 0.75rem 0;
+        background: rgba(221, 121, 74, .08);
+        border-radius: 5px;
+        color: #dd794a;
+        font-size: 14px;
+        padding: 20px;
+    }
+    
+    .warning-wrapper.dark {
+        border-radius: 10px;
+        border: solid 1px #e5e7eb;
+        font-size: 20px;
+        padding: 0.75rem 0;
+    }
+    
+    .warning-wrapper .header {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .warning-wrapper .body {
+        font-size: 14px;
+    }
+    
+    .warning-dialog-wrapper {
+        color: red;
+        font-size: 0.75rem;
+    }
+    
+    .input-range-wrapper.red .input-range__slider {
+        background-color: red !important;
+        border-color: red !important;
+    }
+    
+    .input-range-wrapper.red .input-range__track--active {
+        background-color: red !important;
+    }
+    
+    .input-range-wrapper.red .input-range__label-container {
+        color: red !important;
+    }
+    
+    .input-panel-wrapper {
+        background-color: #f9fafb;
+        border-radius: 10px;
+        border: solid 1px #e5e7eb;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0.75rem 0;
+    }
+    
+    .input-panel-wrapper.dark {
+        background-color: transparent;
+        border-radius: 10px;
+        border: solid 1px #e5e7eb;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0.75rem 0;
+        color: white !important;
+    }
+    
+    .input-panel-wrapper .header {
+        font-size: 14px;
+        font-weight: normal;
+        font-weight: 550;
+        color: #1f2937;
+    }
+    
+    .input-panel-wrapper .header-2 {
+        font-size: 12px;
+        font-weight: 300;
+        font-weight: 550;
+        color: rgba(185, 187, 191, 0.981);
+    }
+    
+    .input-panel-wrapper.dark .header {
+        font-size: 14px;
+        font-weight: normal;
+        font-weight: 550;
+        color: #ffffff;
+    }
+    
+    .input-panel-wrapper input {
+        background: transparent;
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        /* color: #9ca3af; */
+        outline: none;
+        flex: 1 1 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-appearance: textfield;
+    }
+    
+    .input-panel-wrapper.dark input {
+        color: #ffffff;
+    }
+    
+    .input-panel-wrapper .select-btn {
+        font-size: 12px;
+        margin-right: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .clickable {
+        cursor: pointer;
+    }
+    
+    .select-stock-modal-wrapper-bg {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 100;
+    }
+    
+    .select-stock-modal-wrapper {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 200;
+        background-color: white;
+        min-width: 35%;
+        padding: 0.5rem;
+        font-size: 16px;
+        font-weight: 550;
+        border-radius: 1rem;
+    }
+    
+    .select-stock-modal-wrapper.dark {
+        background-color: #1f2937;
+        color: white;
+    }
+    
+    .select-stock-modal-wrapper .header-row {
+        border-bottom: #9ca3af solid 1px;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0 -1.45rem;
+    }
+    
+    .select-stock-modal-wrapper .stock-modal-item-name {
+        line-height: 1.5rem;
+    }
+    
+    .select-stock-modal-wrapper .stock-modal-item-amount {
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #9ca3af;
+        margin-left: .5rem!important;
+    }
+    
+    .token-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .collateral-base-text {
+        font-size: 16px;
+    }
+    
+    .mint-page-header-wrapper {
+        border-bottom: #e5e7eb solid 1px;
+        margin-bottom: 1.5rem;
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+    
+    .mint-page-header-wrapper .toppic-header {
+        color: #19c6bc;
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .mint-page-header-wrapper .toppic-header.active {
+        border-bottom: #19c6bc solid 4px;
+    }
+    
+    .collateral-input {
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+    }
+    
+    .minted-output {
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+    }
+    /* Chrome, Safari, Edge, Opera */
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    
+    .max-dolly-btn {
+        height: 28px;
+        background-color: #19c6bc;
+        border: 1px solid #19c6bc;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        color: #FFFFFF;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .input-panel-wrapper .mint-select {
+            font-size: 10px;
+        }
+        .input-panel-wrapper .mint-select .token-icon {
+            margin-bottom: 5px;
+        }
+        .select-stock-modal-wrapper {
+            width: inherit;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .input-panel-wrapper .mint-select {
+            font-size: 10px;
+        }
+        .input-panel-wrapper .mint-select .token-icon {
+            margin-bottom: 5px;
+            margin-right: 0;
+        }
+        .input-panel-wrapper .select-btn {
+            font-size: 13px;
+        }
+        .guage-header-item {
+            font-size: 10px;
+        }
+        .guage-header-item-wrapper {
+            width: 63% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 360px) {
+        .guage-header-item-wrapper {
+            width: 63% !important;
+        }
+        .collateral-input-currency,
+        .collateral-base-text {
+            font-size: 13px;
+        }
+        .max-dolly-btn {
+            height: 25px;
+            font-size: 11px;
+            cursor: pointer;
+            color: #FFFFFF;
+            margin-left: 0px;
+        }
+    }

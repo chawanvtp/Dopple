@@ -1,0 +1,61 @@
+{
+    "name": "Twindex",
+    "logoURI": "https://twindex.com/images/logo.png",
+    "keywords": ["defi"],
+    "timestamp": "2020-11-06T03:00:06.329+00:00",
+    "tokens": [{
+            "chainId": 137,
+            "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+        },
+        {
+            "chainId": 137,
+            "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "name": "Tether",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707"
+        },
+        {
+            "chainId": 137,
+            "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "name": "Dai",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774"
+        },
+        {
+            "chainId": 137,
+            "address": "0x6eb7d1bde3981e1863e7dc473cc863bbe11356ab",
+            "name": "mDopple",
+            "symbol": "mDOP",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14826/small/logo-200x200_%282%29.png?1618561036"
+        },
+        {
+            "chainId": 137,
+            "address": "0x37924e552e0471002a4aff038717df0468284676",
+            "name": "mDolly",
+            "symbol": "mDOLLY",
+            "decimals": 18,
+            "logoURI": "https://dopple.finance/_next/image?url=%2Fimages%2Ficons%2Fdolly.svg&w=64&q=75"
+        },
+        {
+            "chainId": 137,
+            "address": "0xb7d9502a18ddc51a0eb52a9bd23da6e09daba321",
+            "name": "mTwin",
+            "symbol": "mTWIN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/chawanvtp/Dopple/main/assets/tokens/0x3806aae953a3a873D02595f76C7698a57d4C7A57.png"
+        }
+
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    }
+}
