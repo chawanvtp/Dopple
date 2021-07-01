@@ -5,7 +5,7 @@ export const OVERLAY_READY = 'OVERLAY_READY'
 
 type FormaticSupportedChains = Extract<
   ChainId,
-  ChainId.MAINNET | ChainId.ROPSTEN | ChainId.RINKEBY | ChainId.KOVAN | ChainId.BSC | ChainId.TESTNET | ChainId.POLYGON
+  ChainId.MAINNET | ChainId.ROPSTEN | ChainId.RINKEBY | ChainId.KOVAN | ChainId.BSC | ChainId.POLYGON
 >
 
 const CHAIN_ID_NETWORK_ARGUMENT: { readonly [chainId in FormaticSupportedChains]: string | undefined } = {
@@ -14,7 +14,6 @@ const CHAIN_ID_NETWORK_ARGUMENT: { readonly [chainId in FormaticSupportedChains]
   [ChainId.RINKEBY]: 'rinkeby',
   [ChainId.KOVAN]: 'kovan',
   [ChainId.BSC]: 'bsc',
-  [ChainId.TESTNET]: 'bsc_testnet',
   [ChainId.POLYGON]: 'polygon'
 }
 

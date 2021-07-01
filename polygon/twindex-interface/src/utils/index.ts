@@ -24,7 +24,6 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   5: 'goerli.',
   42: 'kovan.',
   56: 'bsc.',
-  97: 'testnet.',
   137: 'polygon.'
 }
 
@@ -53,7 +52,7 @@ export function getEtherscanLink(
 }
 
 export function getBSCscanLink(data: string, type: 'transaction' | 'token' | 'address' | 'block'): string {
-  const prefix = `https://bscscan.com`
+  const prefix = `https://polygonscan.com/`
 
   switch (type) {
     case 'transaction': {

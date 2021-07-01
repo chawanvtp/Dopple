@@ -48,8 +48,7 @@ export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.BSC]: new Token(ChainId.BSC, DOPPLE_ADDRESS, 18, 'DOP', 'Dopple'),
-  [ChainId.TESTNET]: new Token(ChainId.BSC, DOPPLE_ADDRESS, 18, 'DOP', 'Dopple'),
-  [ChainId.POLYGON]: new Token(ChainId.BSC, DOPPLE_ADDRESS, 18, 'DOP', 'Dopple')
+  [ChainId.POLYGON]: new Token(ChainId.POLYGON, DOPPLE_ADDRESS, 18, 'DOP', 'Dopple')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
@@ -72,7 +71,6 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
   [ChainId.BSC]: [WETH[ChainId.BSC]],
-  [ChainId.TESTNET]: [WETH[ChainId.TESTNET]],
   [ChainId.POLYGON]: [WETH[ChainId.POLYGON]]
 }
 

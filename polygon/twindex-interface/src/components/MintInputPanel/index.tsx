@@ -303,7 +303,7 @@ export function MintInputPanel({
                       currency.symbol.slice(currency.symbol.length - 5, currency.symbol.length)
                     : currency?.symbol !== `ETH`
                     ? currency?.symbol
-                    : `BNB`) || t('selectToken')}
+                    : `MATIC`) || t('selectToken')}
                 </StyledTokenName>
               )}
               {!disableCurrencySelect && <StyledDropDown selected={!!currency} />}

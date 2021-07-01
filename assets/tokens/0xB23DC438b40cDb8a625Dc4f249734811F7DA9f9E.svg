@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="coin-stock" transform="translate(0 0.01)">
+        <path id="bg" d="M0 0H70V70H0z" class="cls-1" transform="translate(0 -0.01)"/>
+        <g id="icon" transform="translate(9.749 15.589)">
+            <g id="bg-2" fill="#fff" stroke="#e5e7eb" transform="translate(-6.749 -12.599)">
+                <circle cx="32" cy="32" r="32" stroke="none"/>
+                <circle cx="32" cy="32" r="31.5" class="cls-1"/>
+            </g>
+            <path id="icon-2" fill="#0052ff" d="M17.778 25.207a9.051 9.051 0 0 1 8.757 6.413h8.426c-1.527-8.2-8.293-13.753-17.115-13.753A17.494 17.494 0 0 0 0 35.656c0 10.183 7.63 17.721 17.846 17.721 8.624 0 15.523-5.555 17.05-13.821h-8.361a8.974 8.974 0 0 1-8.691 6.481c-5.773 0-9.818-4.431-9.818-10.381.002-6.018 3.982-10.449 9.752-10.449z" transform="translate(7.94 -15.799)"/>
+        </g>
+    </g>
+</svg>

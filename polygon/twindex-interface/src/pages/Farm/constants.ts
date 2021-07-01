@@ -121,7 +121,6 @@ export const TWINDEX_TOKEN_ADDRESSES: { [chainId in ChainId]: string } = {
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
   [ChainId.BSC]: '0x3806aae953a3a873D02595f76C7698a57d4C7A57',
-  [ChainId.TESTNET]: '0x3806aae953a3a873D02595f76C7698a57d4C7A57',
   [ChainId.POLYGON]: ''
 }
 
@@ -132,6 +131,5 @@ export const FAIRLAUNCH_ADDRESSES: { [chainId in ChainId]: string } = {
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
   [ChainId.BSC]: '0xe6bE78800f25fFaE4D1db7CA6d3485629bD200Ed',
-  [ChainId.TESTNET]: '0xDa0a175960007b0919DBF11a38e6EC52896bddbE',
   [ChainId.POLYGON]: '0x'
 }
