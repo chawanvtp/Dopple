@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="xau-stock" transform="translate(0 0.01)">
+        <path id="bg" d="M0 0H70V70H0z" class="cls-1" transform="translate(0 -0.01)"/>
+        <g id="icon" transform="translate(9.749 15.589)">
+            <g id="bg-2" fill="#fff" stroke="#e5e7eb" transform="translate(-6.749 -12.599)">
+                <circle cx="32" cy="32" r="32" stroke="none"/>
+                <circle cx="32" cy="32" r="31.5" class="cls-1"/>
+            </g>
+            <text id="XAU" fill="#111827" font-family="SanFranciscoDisplay-Bold, San Francisco Display" font-size="14px" font-weight="700" transform="translate(25.251 24.401)">
+                <tspan x="-13.21" y="0">XAU</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
