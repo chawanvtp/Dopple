@@ -1,0 +1,36 @@
+<svg id="light_-_dGOOGL" data-name="light - dGOOGL" xmlns="http://www.w3.org/2000/svg" width="70" height="70">
+    <defs>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_79" data-name="Ellipse 79" cx="32" cy="32" r="32" transform="translate(-.289 -.298)" style="fill:#5d95c7"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_3063" data-name="Path 3063" d="M31.961 14.585H17.422v6.029h8.369c-.78 3.83-4.043 6.029-8.369 6.029a9.22 9.22 0 0 1 0-18.441 9.021 9.021 0 0 1 5.745 2.057l4.539-4.539a15.594 15.594 0 1 0-10.284 27.305c7.8 0 14.894-5.674 14.894-15.6a12.945 12.945 0 0 0-.355-2.84z" transform="translate(-1.818 -1.818)"/>
+        </clipPath>
+        <style>
+            .cls-2{fill:none}.cls-5{clip-path:url(#clip-path-2)}
+        </style>
+    </defs>
+    <path id="bg" class="cls-2" d="M0 0h70v70H0z"/>
+    <g id="icon" transform="translate(3.289 3.299)">
+        <g id="bg-2" data-name="bg" transform="translate(-.289 -.299)" style="fill:#fff;stroke:#e5e7eb">
+            <circle cx="32" cy="32" r="32" style="stroke:none"/>
+            <circle class="cls-2" cx="32" cy="32" r="31.5"/>
+        </g>
+        <g id="icon-2" data-name="icon" transform="translate(0 -.001)" style="clip-path:url(#clip-path)">
+            <g id="Google__G__Logo" transform="translate(16.462 16.108)">
+                <g id="Group_849" data-name="Group 849" class="cls-5">
+                    <path id="Path_3062" data-name="Path 3062" d="M0 28.441V10l12.057 9.22z" transform="translate(-1.419 -3.617)" style="fill:#fbbc05"/>
+                </g>
+                <g id="Group_850" data-name="Group 850" class="cls-5">
+                    <path id="Path_3064" data-name="Path 3064" d="m0 7.8 12.057 9.22 4.965-4.32 17.022-2.77V0H0z" transform="translate(-1.419 -1.419)" style="fill:#ea4335"/>
+                </g>
+                <g id="Group_851" data-name="Group 851" class="cls-5">
+                    <path id="Path_3066" data-name="Path 3066" d="M0 26.242 21.278 9.93l5.6.709L34.044 0v34.044H0z" transform="translate(-1.419 -1.419)" style="fill:#34a853"/>
+                </g>
+                <g id="Group_852" data-name="Group 852" class="cls-5">
+                    <path id="Path_3068" data-name="Path 3068" d="M36.642 36.242 14.655 19.22l-2.837-2.128L36.642 10z" transform="translate(-4.016 -3.617)" style="fill:#4285f4"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
